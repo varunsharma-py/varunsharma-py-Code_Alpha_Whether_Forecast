@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input[type="text"], button {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+#weather-info {
+    margin-top: 20px;
+}
+
+#hourly-forecast {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.hourly-item {
+    margin: 10px;
+}
+
+.hourly-item span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#weather-icon {
+    display: none;
+    margin-top: 20px;
+    max-width: 100px;
+}
